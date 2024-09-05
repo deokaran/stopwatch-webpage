@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(149, 190, 190);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: xx-large;
+
+    margin: 25px;
+    padding: 15px;
+
+}
+
+.buttons {
+    text-align: center;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+#reset {
+    background-color: rgb(0, 143, 162);
+
+}
+
+#start {
+    background-color: greenyellow;
+
+}
+
+#stop {
+    background-color: rgb(255, 123, 123);
+
+}
+
+#lap {
+    background-color: yellow;
+
+
+}
+
+.laps {
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lapheader {
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: bisque;
+}
+
+#timer {
+    font-size: 100px;
+    font-weight: bolder;
+
+
+    text-align: center;
+}
+
+.laplist {
+    font-weight: bold;
+}
+
+@media only screen and (max-width:670px) {
+    #timer {
+        font-size: 70px;
+    }
+
+    .button {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    #timer {
+        font-size: 40px;
+    }
+
+    button {
+        font-size: medium;
+        font-weight: bold;
+    }
+}
